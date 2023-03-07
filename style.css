@@ -29,8 +29,9 @@ button {
 
 /* sem přijdou tvoje styly */
 .modal {
-  position: absolute;
+  position: relative;
   left: 200px;
+  text-align: center;
 }
 
 .ok {
@@ -42,4 +43,23 @@ button {
 .exit {
   position: absolute;
   right: 0px;
+}
+
+.box-2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  height: 30vh;
+  border: 15px solid #c91313;
+  background-color: #fbc2b4;
+  border-radius: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.zde {
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
 }
