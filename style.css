@@ -38,3 +38,8 @@ button {
   bottom: 30%;
   left: 45%;
 }
+
+.exit {
+  position: absolute;
+  right: 0px;
+}
